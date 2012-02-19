@@ -1,0 +1,57 @@
+# Speeding up the progress of biomedicine by making data reusable through crowdsourcing 
+
+> «If biomedical science remains an “us and them” proposition, it bodes well neither for us nor for them.» - *Misha Angrist*
+
+## The State of Data in Biomedical Sciences
+The quantity of data which is collected for biomedical research and diagnostics has exponentionally increased over the last years while at the same time the focus on which data gets collected has shifted drastically. Traditionaly biomedical research as well as health records focussed on the history of diseases in an individual, accompanied with medical imaging and diagnostics through means like tissue samples, blood tests etc. But nowadays this data is often supplemented with a wide array of genetic information which is likely to increase over the next years.   
+Over ten years have passed since the first human genome was fully sequenced and while some of the claims on how this will revolutionize medicine may have been exaggerated it definetly has changed the perception and research on genetic disorders [1]. The progress in sequencing-techniques has lead to the adoption of large-scale sequencing projects to diagnose genetic diseases and to find the causes of previously unkown diseases. In 2008 clinical whole-genome sequencing was applied to find the causes of a 11-month old girl which showed xanthomas and very high cholesterol levels. Using this technique they found a known disease with an atypical presentation in this patient [2]. 
+In 2011 the complete exome – the parts of the human genome which encode proteins – were sequenced of a 5-year old who showed a congenital disorders of glycosylation (CDG) but who showed no mutations in the genes known to contribute to the disease. Whole exome sequencing lead to the discovery of previously unknown mutations why can now be applied to diagnostic in all patients with CDG [3]. 
+
+While those are still isolated cases these examples show who new sequencing techniques can be used in a clinical setting. This progress is made possible by steeply dropping sequencing-prices. The price to sequence a human genome – which cost over 3 billion USD in 2000 – has dropped to less than 10.000 USD recently and is already available through companies on the mass-market [4] and other supplier recently presented sequencers for less than 1.000 USD [5]. 
+And customers can already get around 1 million markers – so called Single Nucleotide Polymorphisms (SNPs) – of their genome tested for about 200 USD and their complete exome sequenced for less than 1.000 USD without the need to enroll in scientific studies or visiting their physician through Direct-To-Consumer testing companies like 23andMe [6]. These technical advances in the clinical and private setting catapult biomedical research into the age of "Big Data", with all the upcoming challanges of storing data, making it accessible, putting it to use and making sense out of it [7].
+
+## Why isn't Biomedical Data Open?
+
+Although some research projects like the annotation of the EHEC causing Escherichia coli-strain apply open data and crowdsourcing principles [8] this sharing of data unfortunately still isn't a widespread practice in biomedical research – especially in studies which enlist human participants – for a couple of reasons, including ethical and legal constraints as well as the prevailing culture of this field [9]. On the cultural side researchers still fear losing control over usage of the data and thus can't publish more findings – especially as there are no standard mechanisms to cite data – while those publications are much-needed to secure their funding. Additionally filing of patents is a common practice in biomedical research. 
+Ethical and legal issues that come with the creation of large quantities of DNA sequence data in a research setting are whether researchers should share the raw data with the participants of their studies, let alone the rest of the world, and whether they should share incidental findings about diseases or non-paternity with research participants. 
+
+The amount of sharing data with third parties in a traditional research setting is usually not only limited directly through laws but also by institutional review boards (IRBs) or ethics committees which monitor and approve research which involves humans. Advocates of strict rules on sharing data often focus on patients/participants privacy while others argue on the side of the benefits for researchers if data can be shared with third parties and that participants are open to share de-identified data [10]. 
+
+A similar case can be made for sharing data with participants themselves: While some people argue that the data in the hand of individuals could do more harm than good, as they lack training in genetics to put the data to use, others make the argument that participants should have access and own their genetic information or that ownership of this data should run in the family as those people share most of their genetic information [11].  
+
+Sharing incidential findings with research participants is another ethics conflict in human genetics research right now: Opponents of sharing those incidential findings during over the course of a study argue that the research settings often does not obey to the same rigor in handeling the samples, thus samples could be accidentally swapped and the wrong person gets the diagnosis. Additionally findings made in a bleeding edge research-setting have a higher chance of being preliminary and thus creating false positives which are to be falsified by more research [12], so sharing incidental findings with the research participants might cause unnecessary harm. 
+Proponents of sharing incidential findings see a moral responsability to share those findings with participants as they can have a profound impact on participants [13]. As in the case a woman who participated in research of the deadly Ogden-syndrome. As she was pregnant scientists new due to her genome sequencing that she had a 50% chance of passing the syndrome to her unborn son. She passed the disease mutations to her boy and the scientists didn't tell of his knowledge [14].    
+
+The practice of Direct-To-Consumer genetic testing is also critized in terms of bioethics because of the idea that giving people back the results of genetic tests without appropriate genetic counseling to analyze how accurate those results are and make sense of the results, to put them into perspective and what actions might be appropriate after doing the test can do more harm than good [15]. Since those concerns arose some studies have looked into the matter and found out that most customers of such tests are able to adapt to the information provided and many people show no sustained behavioral change as a result of taking DTC genetic testing [16].
+
+## Drawbacks of Closed Data & Benefits of Open Data
+All those concerns about bioethics and privacy are important points which have to be kept in mind in any approach which tries to open up data in biomedical sciences. But the number of complete genome sequences is rising as is the number of customers of people who have taken DTC genetic testing (23andMe already reported ~100.000 customers in mid 2011 [17]). Besides of the few reference genomes much of this data will be kept behind lock and key on the harddrives of researchers and physicians, as well as the genotyping data of companies like 23andMe. We feel that one should keep in mind that the lack of access comes at a cost: Reusing this data isn't easily – if at all – possible. Recognizing disease-causing mutations often needs data of multiple individuals and especially for rare conditions it is hard to get enough participants enrolled in studies. 
+
+In extreme cases this leads to an odd ratio of researchers to participants in the corresponding study: A study published in 2011 with about 180 authors on the genetic foundation for being underweight and eating disorders had a sample size of 138 participants. The reason for this strange researcher/participant ratio lies in the low percentage of carriers of those mutations [18]. Another example are the exome sequencing results of the 5-year old with with CDG where the raw data could be put to use by other researchers also working on the same disease [3]. Opening up those resources would allow more people to participate in the research and would allow them to add their own data to unite data sets in order to get better results. Similarly biomedical data which has been created in a clinical setting for diagnostics could be put to broader use if there was a way to share genetic and more traditional biomedical information like results of blood tests etc. 
+
+And the same is true for the results of DTC genetic testing. SNP data as produced by DTC companies gets frequently used in Genome Wide Association Studies, a method to find genetic associations where large sample sizes are crucial in order to find significant associations between different diseases and traits and the genetic variations because of the multiple testing one performs [19]. These tests could drastically improved by opening up already collected genetic and biomedical information to incrementially increase the sample sizes. 
+
+A drawback of concerns about bioethics and the closed access policies and applied up to now is that patients or research participants and researchers nowadays are largely alienated from each other and participants in research are reduced to a completely passive role. Former genetic counselor Misha Angrist critizes this lack of exchange between reseachers and researchee as being against researchs own interest [20] as it fuels the lack of support for science and cuts in funding. Opening up data to participants (and possible a wider audience) and increasing the exchange between those groups can help to counter these effects. 
+
+## Solutions and Examples for Open Data
+ 
+[1] http://www.nature.com/nature/journal/v464/n7289/full/464674a.html
+[2] http://hmg.oxfordjournals.org/content/19/22/4313
+[3] http://www.cell.com/AJHG/retrieve/pii/S0002929712000419
+[4] http://www.everygenome.com/
+[5] http://www.nanoporetech.com/news/press-releases/view/39
+[6] https://www.23andme.com/exome/
+[7] http://www.nature.com/nature/journal/v455/n7209/full/455047a.html
+[8] https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki
+[9] http://www.nature.com/news/2009/090909/full/461160a.html
+[10] http://www.nature.com/gim/journal/v12/n8/full/gim201079a.html
+[11] http://www.bmj.com/content/335/7609/22.full
+[12] http://www.genomesunzipped.org/2012/01/genomethics.php
+[13] http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2610459/?tool=pubmed
+[14] http://www.nature.com/nature/journal/v482/n7385/full/482300a.html
+[15] http://www.nature.com/scitable/topicpage/dtc-genetic-testing-for-diabetes-breast-cancer-698
+[16] http://www.annualreviews.org/doi/full/10.1146/annurev-med-062110-123753
+[17] http://spittoon.23andme.com/2011/06/15/23andme-2011-state-of-the-database-address/
+[18] http://www.nature.com/nature/journal/v478/n7367/full/nature10406.html
+[19] http://www.ncbi.nlm.nih.gov/pubmed/19474294
+[20] http://blogs.nature.com/soapboxscience/2012/02/08/open-season
