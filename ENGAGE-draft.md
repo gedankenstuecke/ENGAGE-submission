@@ -47,7 +47,7 @@ Another point that needs work in order to make models like this work is **the pr
 
 To faciliate those changes the research community should help in creating repositories where patients and participants in research can upload their data using open licenses. Similarly the community needs to address the problem of incompatible ethics approvals. Additionally policy-makers need to address the challenges of making biomedical data available by protecting patients and researchees who opt to make data available.
 
-Last but not least there has to be a change in scientific culture in Biomedicine. Away from the traditional secrecy and being passive towards research participants towards a more open attitude which embraces a relationship with research participants. But we are confident that this change in culture will come over the next years, not out of pure altruism but because every researcher will benefit from open data in the long run. As Misha Angrist wrote: «If biomedical science remains an “us and them” proposition, it bodes well neither for us nor for them.»
+Last but not least there has to be a change in scientific culture in Biomedicine. Away from the traditional secrecy and being passive towards research participants towards a more open attitude which embraces a relationship with research participants. But we are confident that this change in culture will come over the next years, not out of pure altruism but because every researcher will benefit from open data in the long run. On side of patients there are already the first groups which work on this, like the *Society for Participatory Medicine* [29]. As Misha Angrist wrote: «If biomedical science remains an “us and them” proposition, it bodes well neither for us nor for them.»
  
 [1] http://www.nature.com/nature/journal/v464/n7289/full/464674a.html
 [2] http://hmg.oxfordjournals.org/content/19/22/4313
@@ -77,3 +77,4 @@ Last but not least there has to be a change in scientific culture in Biomedicine
 [26] http://www.plosgenetics.org/article/info:doi/10.1371/journal.pgen.1002141
 [27] http://weconsent.us/
 [28] http://sagebase.org/
+[29] http://participatorymedicine.org/
